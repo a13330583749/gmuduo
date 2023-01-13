@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/EventLoop",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/EventLoop_unittest.dir/EventLoop_unittest.cc.o -c /home/gtq/桌面/gmuduo/EventLoop/EventLoop_unittest.cc",
+  "file": "/home/gtq/桌面/gmuduo/EventLoop/EventLoop_unittest.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/EventLoop",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/gEventLoop_unittest.dir/gEventLoop_unittest.cc.o -c /home/gtq/桌面/gmuduo/EventLoop/gEventLoop_unittest.cc",
+  "file": "/home/gtq/桌面/gmuduo/EventLoop/gEventLoop_unittest.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/chat",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_chat_client.dir/client.cc.o -c /home/gtq/桌面/gmuduo/asio/chat/client.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/chat/client.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/chat",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_chat_loadtest.dir/loadtest.cc.o -c /home/gtq/桌面/gmuduo/asio/chat/loadtest.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/chat/loadtest.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/chat",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_chat_server.dir/server.cc.o -c /home/gtq/桌面/gmuduo/asio/chat/server.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/chat/server.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/chat",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_chat_server_threaded.dir/server_threaded.cc.o -c /home/gtq/桌面/gmuduo/asio/chat/server_threaded.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/chat/server_threaded.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/chat",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_chat_server_threaded_efficient.dir/server_threaded_efficient.cc.o -c /home/gtq/桌面/gmuduo/asio/chat/server_threaded_efficient.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/chat/server_threaded_efficient.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/chat",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_chat_server_threaded_highperformance.dir/server_threaded_highperformance.cc.o -c /home/gtq/桌面/gmuduo/asio/chat/server_threaded_highperformance.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/chat/server_threaded_highperformance.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/tutorial",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_tutorial_timer2.dir/timer2/timer.cc.o -c /home/gtq/桌面/gmuduo/asio/tutorial/timer2/timer.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/tutorial/timer2/timer.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/tutorial",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_tutorial_timer3.dir/timer3/timer.cc.o -c /home/gtq/桌面/gmuduo/asio/tutorial/timer3/timer.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/tutorial/timer3/timer.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/tutorial",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.o -c /home/gtq/桌面/gmuduo/asio/tutorial/timer4/timer.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/tutorial/timer4/timer.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/tutorial",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_tutorial_timer5.dir/timer5/timer.cc.o -c /home/gtq/桌面/gmuduo/asio/tutorial/timer5/timer.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/tutorial/timer5/timer.cc"
+},
+{
+  "directory": "/home/gtq/桌面/gmuduo/build/asio/tutorial",
+  "command": "g++  -I/home/gtq/桌面/gmuduo -g -D_FILE_OFFSET_BITS=64 -Wall -Wextra -Werror -Wconversion -Wno-unused-parameter -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wshadow -Wwrite-strings -march=native -rdynamic -O0 -o CMakeFiles/asio_tutorial_timer6.dir/timer6/timer.cc.o -c /home/gtq/桌面/gmuduo/asio/tutorial/timer6/timer.cc",
+  "file": "/home/gtq/桌面/gmuduo/asio/tutorial/timer6/timer.cc"
+}
+]
