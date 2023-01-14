@@ -5,9 +5,11 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}",
-                "/home/gtq/桌面/gmuduo/muduo/base/",
-                "/home/gtq/桌面/gmuduo/muduo/net/",
-                "${workspaceFolder}"
+                "/home/gtq/桌面/githubgmuduo/gmuduo/muduo/net",
+                "/home/gtq/桌面/githubgmuduo/gmuduo/muduo/base",
+                "/home/gtq/桌面/muduo/",
+                "${workspaceFolder}",
+                "/home/gtq/桌面/gmuduo"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
