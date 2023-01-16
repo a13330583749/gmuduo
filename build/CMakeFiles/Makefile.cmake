@@ -8,11 +8,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../EventLoop/CMakeLists.txt"
-  "../asio/chat/CMakeLists.txt"
-  "../asio/tutorial/CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
+  "../examples/netty/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfigVersion.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake"
@@ -54,24 +52,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "EventLoop/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "asio/chat/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "asio/tutorial/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "examples/netty/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "EventLoop/CMakeFiles/EventLoop_unittest.dir/DependInfo.cmake"
-  "EventLoop/CMakeFiles/gEventLoop_unittest.dir/DependInfo.cmake"
-  "asio/chat/CMakeFiles/asio_chat_client.dir/DependInfo.cmake"
-  "asio/chat/CMakeFiles/asio_chat_loadtest.dir/DependInfo.cmake"
-  "asio/chat/CMakeFiles/asio_chat_server.dir/DependInfo.cmake"
-  "asio/chat/CMakeFiles/asio_chat_server_threaded.dir/DependInfo.cmake"
-  "asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/DependInfo.cmake"
-  "asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/DependInfo.cmake"
-  "asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/DependInfo.cmake"
-  "asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/DependInfo.cmake"
-  "asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/DependInfo.cmake"
-  "asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/DependInfo.cmake"
-  "asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/DependInfo.cmake"
+  "examples/netty/CMakeFiles/netty_discard_client.dir/DependInfo.cmake"
+  "examples/netty/CMakeFiles/netty_discard_server.dir/DependInfo.cmake"
   )

@@ -5,6 +5,9 @@ target_link_libraries(asio_tutorial_timer2 libmuduo_net.a libmuduo_base.a)
 add_executable(asio_tutorial_timer3 timer3/timer.cc)
 target_link_libraries(asio_tutorial_timer3 libmuduo_net.a libmuduo_base.a)
 
+add_executable(asio_tutorial_gtimer3 timer3/timer.cc)
+target_link_libraries(asio_tutorial_gtimer3 libmuduo_net.a libmuduo_base.a)
+
 add_executable(asio_tutorial_timer4 timer4/timer.cc)
 target_link_libraries(asio_tutorial_timer4 libmuduo_net.a libmuduo_base.a)
 

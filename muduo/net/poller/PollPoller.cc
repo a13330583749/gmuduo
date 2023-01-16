@@ -35,6 +35,8 @@ Timestamp PollPoller::poll(int timeoutMs, ChannelList* activeChannels)
   if (numEvents > 0)
   {
     LOG_TRACE << numEvents << " events happened";
+    //遍历pollfds_，找出有活动事件的fd，把它对应的channel填入activeChannels
+    //当numEvents=0时，遍历可以提前结束
     fillActiveChannels(numEvents, activeChannels);
   }
   else if (numEvents == 0)
@@ -52,6 +54,7 @@ Timestamp PollPoller::poll(int timeoutMs, ChannelList* activeChannels)
   return now;
 }
 
+//遍历pollfds_，找出有活动事件的fd，把它对应的channel填入activeChannels
 void PollPoller::fillActiveChannels(int numEvents,
                                     ChannelList* activeChannels) const
 {
@@ -61,17 +64,19 @@ void PollPoller::fillActiveChannels(int numEvents,
     if (pfd->revents > 0)
     {
       --numEvents;
+      //channels_ is ChannelMap
       ChannelMap::const_iterator ch = channels_.find(pfd->fd);
       assert(ch != channels_.end());
       Channel* channel = ch->second;
       assert(channel->fd() == pfd->fd);
-      channel->set_revents(pfd->revents);
+      channel->set_revents(pfd->revents);//把fd的revent变为Channel_revent
       // pfd->revents = 0;
       activeChannels->push_back(channel);
     }
   }
 }
 
+//负责维护和更新pollfds_数组
 void PollPoller::updateChannel(Channel* channel)
 {
   Poller::assertInLoopThread();

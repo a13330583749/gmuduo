@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gtq/桌面/gmuduo/asio/tutorial/timer4/timer.cc" "asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.o" "gcc" "asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.o.d"
+  "/home/gtq/桌面/githubgmuduo/gmuduo/asio/tutorial/timer4/timer.cc" "asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.o" "gcc" "asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.o.d"
   )
 
 # Targets to which this target links.

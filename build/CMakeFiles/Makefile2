@@ -54,434 +54,94 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gtq/桌面/gmuduo
+CMAKE_SOURCE_DIR = /home/gtq/桌面/githubgmuduo/gmuduo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gtq/桌面/gmuduo/build
+CMAKE_BINARY_DIR = /home/gtq/桌面/githubgmuduo/gmuduo/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: EventLoop/all
-all: asio/chat/all
-all: asio/tutorial/all
+all: examples/netty/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: EventLoop/preinstall
-preinstall: asio/chat/preinstall
-preinstall: asio/tutorial/preinstall
+preinstall: examples/netty/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: EventLoop/clean
-clean: asio/chat/clean
-clean: asio/tutorial/clean
+clean: examples/netty/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory EventLoop
+# Directory level rules for directory examples/netty
 
 # Recursive "all" directory target.
-EventLoop/all: EventLoop/CMakeFiles/EventLoop_unittest.dir/all
-EventLoop/all: EventLoop/CMakeFiles/gEventLoop_unittest.dir/all
-.PHONY : EventLoop/all
+examples/netty/all: examples/netty/CMakeFiles/netty_discard_client.dir/all
+examples/netty/all: examples/netty/CMakeFiles/netty_discard_server.dir/all
+.PHONY : examples/netty/all
 
 # Recursive "preinstall" directory target.
-EventLoop/preinstall:
-.PHONY : EventLoop/preinstall
+examples/netty/preinstall:
+.PHONY : examples/netty/preinstall
 
 # Recursive "clean" directory target.
-EventLoop/clean: EventLoop/CMakeFiles/EventLoop_unittest.dir/clean
-EventLoop/clean: EventLoop/CMakeFiles/gEventLoop_unittest.dir/clean
-.PHONY : EventLoop/clean
+examples/netty/clean: examples/netty/CMakeFiles/netty_discard_client.dir/clean
+examples/netty/clean: examples/netty/CMakeFiles/netty_discard_server.dir/clean
+.PHONY : examples/netty/clean
 
 #=============================================================================
-# Directory level rules for directory asio/chat
-
-# Recursive "all" directory target.
-asio/chat/all: asio/chat/CMakeFiles/asio_chat_client.dir/all
-asio/chat/all: asio/chat/CMakeFiles/asio_chat_loadtest.dir/all
-asio/chat/all: asio/chat/CMakeFiles/asio_chat_server.dir/all
-asio/chat/all: asio/chat/CMakeFiles/asio_chat_server_threaded.dir/all
-asio/chat/all: asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/all
-asio/chat/all: asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/all
-.PHONY : asio/chat/all
-
-# Recursive "preinstall" directory target.
-asio/chat/preinstall:
-.PHONY : asio/chat/preinstall
-
-# Recursive "clean" directory target.
-asio/chat/clean: asio/chat/CMakeFiles/asio_chat_client.dir/clean
-asio/chat/clean: asio/chat/CMakeFiles/asio_chat_loadtest.dir/clean
-asio/chat/clean: asio/chat/CMakeFiles/asio_chat_server.dir/clean
-asio/chat/clean: asio/chat/CMakeFiles/asio_chat_server_threaded.dir/clean
-asio/chat/clean: asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/clean
-asio/chat/clean: asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/clean
-.PHONY : asio/chat/clean
-
-#=============================================================================
-# Directory level rules for directory asio/tutorial
-
-# Recursive "all" directory target.
-asio/tutorial/all: asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/all
-asio/tutorial/all: asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/all
-asio/tutorial/all: asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/all
-asio/tutorial/all: asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/all
-asio/tutorial/all: asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/all
-.PHONY : asio/tutorial/all
-
-# Recursive "preinstall" directory target.
-asio/tutorial/preinstall:
-.PHONY : asio/tutorial/preinstall
-
-# Recursive "clean" directory target.
-asio/tutorial/clean: asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/clean
-asio/tutorial/clean: asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/clean
-asio/tutorial/clean: asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/clean
-asio/tutorial/clean: asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/clean
-asio/tutorial/clean: asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/clean
-.PHONY : asio/tutorial/clean
-
-#=============================================================================
-# Target rules for target EventLoop/CMakeFiles/EventLoop_unittest.dir
+# Target rules for target examples/netty/CMakeFiles/netty_discard_client.dir
 
 # All Build rule for target.
-EventLoop/CMakeFiles/EventLoop_unittest.dir/all:
-	$(MAKE) $(MAKESILENT) -f EventLoop/CMakeFiles/EventLoop_unittest.dir/build.make EventLoop/CMakeFiles/EventLoop_unittest.dir/depend
-	$(MAKE) $(MAKESILENT) -f EventLoop/CMakeFiles/EventLoop_unittest.dir/build.make EventLoop/CMakeFiles/EventLoop_unittest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=1,2 "Built target EventLoop_unittest"
-.PHONY : EventLoop/CMakeFiles/EventLoop_unittest.dir/all
+examples/netty/CMakeFiles/netty_discard_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f examples/netty/CMakeFiles/netty_discard_client.dir/build.make examples/netty/CMakeFiles/netty_discard_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f examples/netty/CMakeFiles/netty_discard_client.dir/build.make examples/netty/CMakeFiles/netty_discard_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles --progress-num=1,2 "Built target netty_discard_client"
+.PHONY : examples/netty/CMakeFiles/netty_discard_client.dir/all
 
 # Build rule for subdir invocation for target.
-EventLoop/CMakeFiles/EventLoop_unittest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EventLoop/CMakeFiles/EventLoop_unittest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : EventLoop/CMakeFiles/EventLoop_unittest.dir/rule
+examples/netty/CMakeFiles/netty_discard_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/netty/CMakeFiles/netty_discard_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles 0
+.PHONY : examples/netty/CMakeFiles/netty_discard_client.dir/rule
 
 # Convenience name for target.
-EventLoop_unittest: EventLoop/CMakeFiles/EventLoop_unittest.dir/rule
-.PHONY : EventLoop_unittest
+netty_discard_client: examples/netty/CMakeFiles/netty_discard_client.dir/rule
+.PHONY : netty_discard_client
 
 # clean rule for target.
-EventLoop/CMakeFiles/EventLoop_unittest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f EventLoop/CMakeFiles/EventLoop_unittest.dir/build.make EventLoop/CMakeFiles/EventLoop_unittest.dir/clean
-.PHONY : EventLoop/CMakeFiles/EventLoop_unittest.dir/clean
+examples/netty/CMakeFiles/netty_discard_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f examples/netty/CMakeFiles/netty_discard_client.dir/build.make examples/netty/CMakeFiles/netty_discard_client.dir/clean
+.PHONY : examples/netty/CMakeFiles/netty_discard_client.dir/clean
 
 #=============================================================================
-# Target rules for target EventLoop/CMakeFiles/gEventLoop_unittest.dir
+# Target rules for target examples/netty/CMakeFiles/netty_discard_server.dir
 
 # All Build rule for target.
-EventLoop/CMakeFiles/gEventLoop_unittest.dir/all:
-	$(MAKE) $(MAKESILENT) -f EventLoop/CMakeFiles/gEventLoop_unittest.dir/build.make EventLoop/CMakeFiles/gEventLoop_unittest.dir/depend
-	$(MAKE) $(MAKESILENT) -f EventLoop/CMakeFiles/gEventLoop_unittest.dir/build.make EventLoop/CMakeFiles/gEventLoop_unittest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=25,26 "Built target gEventLoop_unittest"
-.PHONY : EventLoop/CMakeFiles/gEventLoop_unittest.dir/all
+examples/netty/CMakeFiles/netty_discard_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f examples/netty/CMakeFiles/netty_discard_server.dir/build.make examples/netty/CMakeFiles/netty_discard_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f examples/netty/CMakeFiles/netty_discard_server.dir/build.make examples/netty/CMakeFiles/netty_discard_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles --progress-num=3,4 "Built target netty_discard_server"
+.PHONY : examples/netty/CMakeFiles/netty_discard_server.dir/all
 
 # Build rule for subdir invocation for target.
-EventLoop/CMakeFiles/gEventLoop_unittest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EventLoop/CMakeFiles/gEventLoop_unittest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : EventLoop/CMakeFiles/gEventLoop_unittest.dir/rule
+examples/netty/CMakeFiles/netty_discard_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/netty/CMakeFiles/netty_discard_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles 0
+.PHONY : examples/netty/CMakeFiles/netty_discard_server.dir/rule
 
 # Convenience name for target.
-gEventLoop_unittest: EventLoop/CMakeFiles/gEventLoop_unittest.dir/rule
-.PHONY : gEventLoop_unittest
+netty_discard_server: examples/netty/CMakeFiles/netty_discard_server.dir/rule
+.PHONY : netty_discard_server
 
 # clean rule for target.
-EventLoop/CMakeFiles/gEventLoop_unittest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f EventLoop/CMakeFiles/gEventLoop_unittest.dir/build.make EventLoop/CMakeFiles/gEventLoop_unittest.dir/clean
-.PHONY : EventLoop/CMakeFiles/gEventLoop_unittest.dir/clean
-
-#=============================================================================
-# Target rules for target asio/chat/CMakeFiles/asio_chat_client.dir
-
-# All Build rule for target.
-asio/chat/CMakeFiles/asio_chat_client.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_client.dir/build.make asio/chat/CMakeFiles/asio_chat_client.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_client.dir/build.make asio/chat/CMakeFiles/asio_chat_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=3,4 "Built target asio_chat_client"
-.PHONY : asio/chat/CMakeFiles/asio_chat_client.dir/all
-
-# Build rule for subdir invocation for target.
-asio/chat/CMakeFiles/asio_chat_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/chat/CMakeFiles/asio_chat_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/chat/CMakeFiles/asio_chat_client.dir/rule
-
-# Convenience name for target.
-asio_chat_client: asio/chat/CMakeFiles/asio_chat_client.dir/rule
-.PHONY : asio_chat_client
-
-# clean rule for target.
-asio/chat/CMakeFiles/asio_chat_client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_client.dir/build.make asio/chat/CMakeFiles/asio_chat_client.dir/clean
-.PHONY : asio/chat/CMakeFiles/asio_chat_client.dir/clean
-
-#=============================================================================
-# Target rules for target asio/chat/CMakeFiles/asio_chat_loadtest.dir
-
-# All Build rule for target.
-asio/chat/CMakeFiles/asio_chat_loadtest.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_loadtest.dir/build.make asio/chat/CMakeFiles/asio_chat_loadtest.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_loadtest.dir/build.make asio/chat/CMakeFiles/asio_chat_loadtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=5,6 "Built target asio_chat_loadtest"
-.PHONY : asio/chat/CMakeFiles/asio_chat_loadtest.dir/all
-
-# Build rule for subdir invocation for target.
-asio/chat/CMakeFiles/asio_chat_loadtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/chat/CMakeFiles/asio_chat_loadtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/chat/CMakeFiles/asio_chat_loadtest.dir/rule
-
-# Convenience name for target.
-asio_chat_loadtest: asio/chat/CMakeFiles/asio_chat_loadtest.dir/rule
-.PHONY : asio_chat_loadtest
-
-# clean rule for target.
-asio/chat/CMakeFiles/asio_chat_loadtest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_loadtest.dir/build.make asio/chat/CMakeFiles/asio_chat_loadtest.dir/clean
-.PHONY : asio/chat/CMakeFiles/asio_chat_loadtest.dir/clean
-
-#=============================================================================
-# Target rules for target asio/chat/CMakeFiles/asio_chat_server.dir
-
-# All Build rule for target.
-asio/chat/CMakeFiles/asio_chat_server.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server.dir/build.make asio/chat/CMakeFiles/asio_chat_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server.dir/build.make asio/chat/CMakeFiles/asio_chat_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=7,8 "Built target asio_chat_server"
-.PHONY : asio/chat/CMakeFiles/asio_chat_server.dir/all
-
-# Build rule for subdir invocation for target.
-asio/chat/CMakeFiles/asio_chat_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/chat/CMakeFiles/asio_chat_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/chat/CMakeFiles/asio_chat_server.dir/rule
-
-# Convenience name for target.
-asio_chat_server: asio/chat/CMakeFiles/asio_chat_server.dir/rule
-.PHONY : asio_chat_server
-
-# clean rule for target.
-asio/chat/CMakeFiles/asio_chat_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server.dir/build.make asio/chat/CMakeFiles/asio_chat_server.dir/clean
-.PHONY : asio/chat/CMakeFiles/asio_chat_server.dir/clean
-
-#=============================================================================
-# Target rules for target asio/chat/CMakeFiles/asio_chat_server_threaded.dir
-
-# All Build rule for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=9,10 "Built target asio_chat_server_threaded"
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded.dir/all
-
-# Build rule for subdir invocation for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/chat/CMakeFiles/asio_chat_server_threaded.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded.dir/rule
-
-# Convenience name for target.
-asio_chat_server_threaded: asio/chat/CMakeFiles/asio_chat_server_threaded.dir/rule
-.PHONY : asio_chat_server_threaded
-
-# clean rule for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded.dir/clean
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded.dir/clean
-
-#=============================================================================
-# Target rules for target asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir
-
-# All Build rule for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=11,12 "Built target asio_chat_server_threaded_efficient"
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/all
-
-# Build rule for subdir invocation for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/rule
-
-# Convenience name for target.
-asio_chat_server_threaded_efficient: asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/rule
-.PHONY : asio_chat_server_threaded_efficient
-
-# clean rule for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/clean
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/clean
-
-#=============================================================================
-# Target rules for target asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir
-
-# All Build rule for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=13,14 "Built target asio_chat_server_threaded_highperformance"
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/all
-
-# Build rule for subdir invocation for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/rule
-
-# Convenience name for target.
-asio_chat_server_threaded_highperformance: asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/rule
-.PHONY : asio_chat_server_threaded_highperformance
-
-# clean rule for target.
-asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/clean
-.PHONY : asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/clean
-
-#=============================================================================
-# Target rules for target asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir
-
-# All Build rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=15,16 "Built target asio_tutorial_timer2"
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/all
-
-# Build rule for subdir invocation for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/rule
-
-# Convenience name for target.
-asio_tutorial_timer2: asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/rule
-.PHONY : asio_tutorial_timer2
-
-# clean rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/clean
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/clean
-
-#=============================================================================
-# Target rules for target asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir
-
-# All Build rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=17,18 "Built target asio_tutorial_timer3"
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/all
-
-# Build rule for subdir invocation for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/rule
-
-# Convenience name for target.
-asio_tutorial_timer3: asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/rule
-.PHONY : asio_tutorial_timer3
-
-# clean rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/clean
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/clean
-
-#=============================================================================
-# Target rules for target asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir
-
-# All Build rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=19,20 "Built target asio_tutorial_timer4"
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/all
-
-# Build rule for subdir invocation for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/rule
-
-# Convenience name for target.
-asio_tutorial_timer4: asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/rule
-.PHONY : asio_tutorial_timer4
-
-# clean rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/clean
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/clean
-
-#=============================================================================
-# Target rules for target asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir
-
-# All Build rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=21,22 "Built target asio_tutorial_timer5"
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/all
-
-# Build rule for subdir invocation for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/rule
-
-# Convenience name for target.
-asio_tutorial_timer5: asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/rule
-.PHONY : asio_tutorial_timer5
-
-# clean rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/clean
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/clean
-
-#=============================================================================
-# Target rules for target asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir
-
-# All Build rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/all:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/depend
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gtq/桌面/gmuduo/build/CMakeFiles --progress-num=23,24 "Built target asio_tutorial_timer6"
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/all
-
-# Build rule for subdir invocation for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/rule
-
-# Convenience name for target.
-asio_tutorial_timer6: asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/rule
-.PHONY : asio_tutorial_timer6
-
-# clean rule for target.
-asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/clean:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/clean
-.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/clean
+examples/netty/CMakeFiles/netty_discard_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f examples/netty/CMakeFiles/netty_discard_server.dir/build.make examples/netty/CMakeFiles/netty_discard_server.dir/clean
+.PHONY : examples/netty/CMakeFiles/netty_discard_server.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gtq/桌面/gmuduo
+CMAKE_SOURCE_DIR = /home/gtq/桌面/githubgmuduo/gmuduo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gtq/桌面/gmuduo/build
+CMAKE_BINARY_DIR = /home/gtq/桌面/githubgmuduo/gmuduo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles /home/gtq/桌面/gmuduo/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles /home/gtq/桌面/githubgmuduo/gmuduo/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,173 +117,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named EventLoop_unittest
+# Target rules for targets named netty_discard_client
 
 # Build rule for target.
-EventLoop_unittest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EventLoop_unittest
-.PHONY : EventLoop_unittest
+netty_discard_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 netty_discard_client
+.PHONY : netty_discard_client
 
 # fast build rule for target.
-EventLoop_unittest/fast:
-	$(MAKE) $(MAKESILENT) -f EventLoop/CMakeFiles/EventLoop_unittest.dir/build.make EventLoop/CMakeFiles/EventLoop_unittest.dir/build
-.PHONY : EventLoop_unittest/fast
+netty_discard_client/fast:
+	$(MAKE) $(MAKESILENT) -f examples/netty/CMakeFiles/netty_discard_client.dir/build.make examples/netty/CMakeFiles/netty_discard_client.dir/build
+.PHONY : netty_discard_client/fast
 
 #=============================================================================
-# Target rules for targets named gEventLoop_unittest
+# Target rules for targets named netty_discard_server
 
 # Build rule for target.
-gEventLoop_unittest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gEventLoop_unittest
-.PHONY : gEventLoop_unittest
+netty_discard_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 netty_discard_server
+.PHONY : netty_discard_server
 
 # fast build rule for target.
-gEventLoop_unittest/fast:
-	$(MAKE) $(MAKESILENT) -f EventLoop/CMakeFiles/gEventLoop_unittest.dir/build.make EventLoop/CMakeFiles/gEventLoop_unittest.dir/build
-.PHONY : gEventLoop_unittest/fast
-
-#=============================================================================
-# Target rules for targets named asio_chat_client
-
-# Build rule for target.
-asio_chat_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_chat_client
-.PHONY : asio_chat_client
-
-# fast build rule for target.
-asio_chat_client/fast:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_client.dir/build.make asio/chat/CMakeFiles/asio_chat_client.dir/build
-.PHONY : asio_chat_client/fast
-
-#=============================================================================
-# Target rules for targets named asio_chat_loadtest
-
-# Build rule for target.
-asio_chat_loadtest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_chat_loadtest
-.PHONY : asio_chat_loadtest
-
-# fast build rule for target.
-asio_chat_loadtest/fast:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_loadtest.dir/build.make asio/chat/CMakeFiles/asio_chat_loadtest.dir/build
-.PHONY : asio_chat_loadtest/fast
-
-#=============================================================================
-# Target rules for targets named asio_chat_server
-
-# Build rule for target.
-asio_chat_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_chat_server
-.PHONY : asio_chat_server
-
-# fast build rule for target.
-asio_chat_server/fast:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server.dir/build.make asio/chat/CMakeFiles/asio_chat_server.dir/build
-.PHONY : asio_chat_server/fast
-
-#=============================================================================
-# Target rules for targets named asio_chat_server_threaded
-
-# Build rule for target.
-asio_chat_server_threaded: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_chat_server_threaded
-.PHONY : asio_chat_server_threaded
-
-# fast build rule for target.
-asio_chat_server_threaded/fast:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded.dir/build
-.PHONY : asio_chat_server_threaded/fast
-
-#=============================================================================
-# Target rules for targets named asio_chat_server_threaded_efficient
-
-# Build rule for target.
-asio_chat_server_threaded_efficient: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_chat_server_threaded_efficient
-.PHONY : asio_chat_server_threaded_efficient
-
-# fast build rule for target.
-asio_chat_server_threaded_efficient/fast:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded_efficient.dir/build
-.PHONY : asio_chat_server_threaded_efficient/fast
-
-#=============================================================================
-# Target rules for targets named asio_chat_server_threaded_highperformance
-
-# Build rule for target.
-asio_chat_server_threaded_highperformance: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_chat_server_threaded_highperformance
-.PHONY : asio_chat_server_threaded_highperformance
-
-# fast build rule for target.
-asio_chat_server_threaded_highperformance/fast:
-	$(MAKE) $(MAKESILENT) -f asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/build.make asio/chat/CMakeFiles/asio_chat_server_threaded_highperformance.dir/build
-.PHONY : asio_chat_server_threaded_highperformance/fast
-
-#=============================================================================
-# Target rules for targets named asio_tutorial_timer2
-
-# Build rule for target.
-asio_tutorial_timer2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_tutorial_timer2
-.PHONY : asio_tutorial_timer2
-
-# fast build rule for target.
-asio_tutorial_timer2/fast:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build
-.PHONY : asio_tutorial_timer2/fast
-
-#=============================================================================
-# Target rules for targets named asio_tutorial_timer3
-
-# Build rule for target.
-asio_tutorial_timer3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_tutorial_timer3
-.PHONY : asio_tutorial_timer3
-
-# fast build rule for target.
-asio_tutorial_timer3/fast:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build
-.PHONY : asio_tutorial_timer3/fast
-
-#=============================================================================
-# Target rules for targets named asio_tutorial_timer4
-
-# Build rule for target.
-asio_tutorial_timer4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_tutorial_timer4
-.PHONY : asio_tutorial_timer4
-
-# fast build rule for target.
-asio_tutorial_timer4/fast:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build
-.PHONY : asio_tutorial_timer4/fast
-
-#=============================================================================
-# Target rules for targets named asio_tutorial_timer5
-
-# Build rule for target.
-asio_tutorial_timer5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_tutorial_timer5
-.PHONY : asio_tutorial_timer5
-
-# fast build rule for target.
-asio_tutorial_timer5/fast:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build
-.PHONY : asio_tutorial_timer5/fast
-
-#=============================================================================
-# Target rules for targets named asio_tutorial_timer6
-
-# Build rule for target.
-asio_tutorial_timer6: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio_tutorial_timer6
-.PHONY : asio_tutorial_timer6
-
-# fast build rule for target.
-asio_tutorial_timer6/fast:
-	$(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build
-.PHONY : asio_tutorial_timer6/fast
+netty_discard_server/fast:
+	$(MAKE) $(MAKESILENT) -f examples/netty/CMakeFiles/netty_discard_server.dir/build.make examples/netty/CMakeFiles/netty_discard_server.dir/build
+.PHONY : netty_discard_server/fast
 
 # Help Target
 help:
@@ -293,19 +150,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... EventLoop_unittest"
-	@echo "... asio_chat_client"
-	@echo "... asio_chat_loadtest"
-	@echo "... asio_chat_server"
-	@echo "... asio_chat_server_threaded"
-	@echo "... asio_chat_server_threaded_efficient"
-	@echo "... asio_chat_server_threaded_highperformance"
-	@echo "... asio_tutorial_timer2"
-	@echo "... asio_tutorial_timer3"
-	@echo "... asio_tutorial_timer4"
-	@echo "... asio_tutorial_timer5"
-	@echo "... asio_tutorial_timer6"
-	@echo "... gEventLoop_unittest"
+	@echo "... netty_discard_client"
+	@echo "... netty_discard_server"
 .PHONY : help
 
 

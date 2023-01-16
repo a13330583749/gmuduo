@@ -1,4 +1,4 @@
-# Install script for directory: /home/gtq/桌面/gmuduo
+# Install script for directory: /home/gtq/桌面/githubgmuduo/gmuduo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gtq/桌面/gmuduo/build/EventLoop/cmake_install.cmake")
-  include("/home/gtq/桌面/gmuduo/build/asio/chat/cmake_install.cmake")
-  include("/home/gtq/桌面/gmuduo/build/asio/tutorial/cmake_install.cmake")
+  include("/home/gtq/桌面/githubgmuduo/gmuduo/build/examples/netty/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/gtq/桌面/gmuduo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/gtq/桌面/githubgmuduo/gmuduo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

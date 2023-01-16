@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gtq/桌面/gmuduo
+CMAKE_SOURCE_DIR = /home/gtq/桌面/githubgmuduo/gmuduo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gtq/桌面/gmuduo/build
+CMAKE_BINARY_DIR = /home/gtq/桌面/githubgmuduo/gmuduo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gtq/桌面/gmuduo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles /home/gtq/桌面/gmuduo/build/asio/tutorial//CMakeFiles/progress.marks
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/gmuduo/build/CMakeFiles 0
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles /home/gtq/桌面/githubgmuduo/gmuduo/build/asio/tutorial//CMakeFiles/progress.marks
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gtq/桌面/githubgmuduo/gmuduo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/clean
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/preinstall
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/preinstall
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gtq/桌面/gmuduo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/rule:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/rule
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/rule
 .PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ asio_tutorial_timer2: asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/rule
 
 # fast build rule for target.
 asio_tutorial_timer2/fast:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build
 .PHONY : asio_tutorial_timer2/fast
 
 # Convenience name for target.
 asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/rule:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/rule
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/rule
 .PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,26 @@ asio_tutorial_timer3: asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/rule
 
 # fast build rule for target.
 asio_tutorial_timer3/fast:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build
 .PHONY : asio_tutorial_timer3/fast
 
 # Convenience name for target.
+asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/rule:
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/rule
+.PHONY : asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/rule
+
+# Convenience name for target.
+asio_tutorial_gtimer3: asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/rule
+.PHONY : asio_tutorial_gtimer3
+
+# fast build rule for target.
+asio_tutorial_gtimer3/fast:
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/build
+.PHONY : asio_tutorial_gtimer3/fast
+
+# Convenience name for target.
 asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/rule:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/rule
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/rule
 .PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/rule
 
 # Convenience name for target.
@@ -155,12 +169,12 @@ asio_tutorial_timer4: asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/rule
 
 # fast build rule for target.
 asio_tutorial_timer4/fast:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build
 .PHONY : asio_tutorial_timer4/fast
 
 # Convenience name for target.
 asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/rule:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/rule
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/rule
 .PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/rule
 
 # Convenience name for target.
@@ -169,12 +183,12 @@ asio_tutorial_timer5: asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/rule
 
 # fast build rule for target.
 asio_tutorial_timer5/fast:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build
 .PHONY : asio_tutorial_timer5/fast
 
 # Convenience name for target.
 asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/rule:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/rule
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/rule
 .PHONY : asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/rule
 
 # Convenience name for target.
@@ -183,7 +197,7 @@ asio_tutorial_timer6: asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/rule
 
 # fast build rule for target.
 asio_tutorial_timer6/fast:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build
 .PHONY : asio_tutorial_timer6/fast
 
 timer2/timer.o: timer2/timer.cc.o
@@ -191,7 +205,7 @@ timer2/timer.o: timer2/timer.cc.o
 
 # target to build an object file
 timer2/timer.cc.o:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/timer2/timer.cc.o
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/timer2/timer.cc.o
 .PHONY : timer2/timer.cc.o
 
 timer2/timer.i: timer2/timer.cc.i
@@ -199,7 +213,7 @@ timer2/timer.i: timer2/timer.cc.i
 
 # target to preprocess a source file
 timer2/timer.cc.i:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/timer2/timer.cc.i
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/timer2/timer.cc.i
 .PHONY : timer2/timer.cc.i
 
 timer2/timer.s: timer2/timer.cc.s
@@ -207,7 +221,7 @@ timer2/timer.s: timer2/timer.cc.s
 
 # target to generate assembly for a file
 timer2/timer.cc.s:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/timer2/timer.cc.s
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer2.dir/timer2/timer.cc.s
 .PHONY : timer2/timer.cc.s
 
 timer3/timer.o: timer3/timer.cc.o
@@ -215,7 +229,8 @@ timer3/timer.o: timer3/timer.cc.o
 
 # target to build an object file
 timer3/timer.cc.o:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/timer3/timer.cc.o
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/timer3/timer.cc.o
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/timer3/timer.cc.o
 .PHONY : timer3/timer.cc.o
 
 timer3/timer.i: timer3/timer.cc.i
@@ -223,7 +238,8 @@ timer3/timer.i: timer3/timer.cc.i
 
 # target to preprocess a source file
 timer3/timer.cc.i:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/timer3/timer.cc.i
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/timer3/timer.cc.i
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/timer3/timer.cc.i
 .PHONY : timer3/timer.cc.i
 
 timer3/timer.s: timer3/timer.cc.s
@@ -231,7 +247,8 @@ timer3/timer.s: timer3/timer.cc.s
 
 # target to generate assembly for a file
 timer3/timer.cc.s:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/timer3/timer.cc.s
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer3.dir/timer3/timer.cc.s
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_gtimer3.dir/timer3/timer.cc.s
 .PHONY : timer3/timer.cc.s
 
 timer4/timer.o: timer4/timer.cc.o
@@ -239,7 +256,7 @@ timer4/timer.o: timer4/timer.cc.o
 
 # target to build an object file
 timer4/timer.cc.o:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.o
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.o
 .PHONY : timer4/timer.cc.o
 
 timer4/timer.i: timer4/timer.cc.i
@@ -247,7 +264,7 @@ timer4/timer.i: timer4/timer.cc.i
 
 # target to preprocess a source file
 timer4/timer.cc.i:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.i
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.i
 .PHONY : timer4/timer.cc.i
 
 timer4/timer.s: timer4/timer.cc.s
@@ -255,7 +272,7 @@ timer4/timer.s: timer4/timer.cc.s
 
 # target to generate assembly for a file
 timer4/timer.cc.s:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.s
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer4.dir/timer4/timer.cc.s
 .PHONY : timer4/timer.cc.s
 
 timer5/timer.o: timer5/timer.cc.o
@@ -263,7 +280,7 @@ timer5/timer.o: timer5/timer.cc.o
 
 # target to build an object file
 timer5/timer.cc.o:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/timer5/timer.cc.o
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/timer5/timer.cc.o
 .PHONY : timer5/timer.cc.o
 
 timer5/timer.i: timer5/timer.cc.i
@@ -271,7 +288,7 @@ timer5/timer.i: timer5/timer.cc.i
 
 # target to preprocess a source file
 timer5/timer.cc.i:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/timer5/timer.cc.i
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/timer5/timer.cc.i
 .PHONY : timer5/timer.cc.i
 
 timer5/timer.s: timer5/timer.cc.s
@@ -279,7 +296,7 @@ timer5/timer.s: timer5/timer.cc.s
 
 # target to generate assembly for a file
 timer5/timer.cc.s:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/timer5/timer.cc.s
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer5.dir/timer5/timer.cc.s
 .PHONY : timer5/timer.cc.s
 
 timer6/timer.o: timer6/timer.cc.o
@@ -287,7 +304,7 @@ timer6/timer.o: timer6/timer.cc.o
 
 # target to build an object file
 timer6/timer.cc.o:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/timer6/timer.cc.o
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/timer6/timer.cc.o
 .PHONY : timer6/timer.cc.o
 
 timer6/timer.i: timer6/timer.cc.i
@@ -295,7 +312,7 @@ timer6/timer.i: timer6/timer.cc.i
 
 # target to preprocess a source file
 timer6/timer.cc.i:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/timer6/timer.cc.i
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/timer6/timer.cc.i
 .PHONY : timer6/timer.cc.i
 
 timer6/timer.s: timer6/timer.cc.s
@@ -303,7 +320,7 @@ timer6/timer.s: timer6/timer.cc.s
 
 # target to generate assembly for a file
 timer6/timer.cc.s:
-	cd /home/gtq/桌面/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/timer6/timer.cc.s
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(MAKE) $(MAKESILENT) -f asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/build.make asio/tutorial/CMakeFiles/asio_tutorial_timer6.dir/timer6/timer.cc.s
 .PHONY : timer6/timer.cc.s
 
 # Help Target
@@ -314,6 +331,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... asio_tutorial_gtimer3"
 	@echo "... asio_tutorial_timer2"
 	@echo "... asio_tutorial_timer3"
 	@echo "... asio_tutorial_timer4"
@@ -345,6 +363,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gtq/桌面/gmuduo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gtq/桌面/githubgmuduo/gmuduo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

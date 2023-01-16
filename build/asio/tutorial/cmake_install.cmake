@@ -1,4 +1,4 @@
-# Install script for directory: /home/gtq/桌面/gmuduo/asio/tutorial
+# Install script for directory: /home/gtq/桌面/githubgmuduo/gmuduo/asio/tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+10f68754d67f18fde2317a3a3c359bd5 example/protobuf/codec/query.pb.cc
+0cb59977eda488081a196c7922890841 examples/protobuf/codec/query.pb.cc

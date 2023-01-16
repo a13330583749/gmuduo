@@ -1,7 +1,7 @@
 #include "muduo/net/EventLoop.h"
 
 #include <iostream>
-
+//定时器和IO事件在同一个线程中进程处理
 class Printer : muduo::noncopyable
 {
  public:
