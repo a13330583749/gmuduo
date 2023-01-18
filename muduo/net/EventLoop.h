@@ -150,7 +150,7 @@ class EventLoop : noncopyable
   int wakeupFd_;
   // unlike in TimerQueue, which is an internal class,
   // we don't expose Channel to client.
-  std::unique_ptr<Channel> wakeupChannel_;
+  std::unique_ptr<Channel> wakeupChannel_;//用于处理wakeupFd_上的可读事件
   boost::any context_;
 
   // scratch variables
